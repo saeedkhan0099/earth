@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(hhhhhhhhhhhhhh.avif);
+    background-size: cover;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 50%; */
+}
+.earth img{
+    width: 500px;
+    mix-blend-mode: multiply;
+    animation: earth 70s infinite;
+    transform:translate(0%);
+    position: relative;
+}
+@keyframes earth{
+    100%{
+        transform:translate(0%)rotate(260deg);
+    }
+}
+.maincar{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    mix-blend-mode: multiply;
+    animation: example 27s infinite;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    /* border: 1px solid black; */
+}
+@keyframes example{
+        100%{
+            transform:translate(-50%,-50%)rotate(1080deg);
+        }
+}
+.car img{
+        width: 150px;
+        height: 100px;
+        position: absolute;
+        left: -202px;
+        transform: rotate(-104deg);
+        
+    }                                                                        
+
